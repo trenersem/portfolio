@@ -106,6 +106,7 @@ img {
 }
 
 .section__title {
+	position: relative;
   font-size: var(--h2-font-size);
   color: var(--title-color);
   text-align: center;
@@ -155,7 +156,7 @@ img {
 	}
 	.header{
 		position: static;
-		background-color: rgba(255, 255, 255, 0.9);
+		background-color: rgba(255, 255, 255, 0.1);
 	}
 }
 
@@ -181,6 +182,7 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
+		z-index: var(--z-fixed);
     bottom: 0;
     left: 0;
     background-color: var(--container-color);
@@ -384,7 +386,7 @@ width: 15%;
 .work__img img{
   transition: 1s;
   cursor: pointer;
-	height: 100%;
+	
 }
 .work__img img:hover{
   transform: scale(1.1);
