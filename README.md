@@ -1,2 +1,2 @@
 # portfolio
-[DEMO] (https://trenersem.github.io/portfolio/)
+[DEMO](https://trenersem.github.io/portfolio/)
