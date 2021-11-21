@@ -374,7 +374,7 @@ img {
   width: 100%;
 }
 .skills__percentage{
-	display: none;
+display: none;
 }
 .skills__img {
   border-radius: 0.5rem;
